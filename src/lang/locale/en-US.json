@@ -1,0 +1,61 @@
+{
+  "common": {
+    "f1": "Confirm"
+  },
+  "report": {
+    "f1": "User Login"
+  },
+  "home": {
+    "f1": "My home",
+    "f2": "Welcome to HSB",
+    "f3": "Platform trading all-in-one",
+    "f4": "Materi pembelajaran lengkap dan gratis untuk meningkatkan skill trading Anda",
+    "f5": "Sinyal trading real-time dan alat analisis meningkatkan peluang profit Anda",
+    "f6": "Peringatan risiko real-time untuk mengurangi risiko posisi Anda",
+    "f7": "Platform",
+    "f8": "Hubungi Kami",
+    "f9": "Whatsapp: +62 858-8839-0398",
+    "f10": "Hotline : +62 21-5 01-22288",
+    "f11": "Peringatan Risiko",
+    "f12": "Produk dengan leverage memiliki tingkat risiko yang tinggi terhadap modal yang anda investasikan dan disarankan hanya menggunakan dana yang mampu Anda tanggung apabila terjadi kerugian. Nilai investasi dapat turun atau naik dan Anda dapat kehilangan pembayaran margin awal Anda. Harap diketahui bahwa produk dengan leverage belum tentu cocok untuk semua orang, jadi pastikan Anda telah memahami sepenuhnya semua risiko yang terlibat.",
+    "f13": "Copyright {'@'} 2023 HSB dilindungi undang-undang."
+  },
+  "user": {
+    "f1": "Login",
+    "f2": "Become a marketing partner and reap endless profits",
+    "f3": "Register",
+    "f4": "Copyright {'@'}2020 HSB. All rights reserved. Copyright is protected by law"
+  },
+  "login": {
+    "f1": "Username",
+    "f2": "Password",
+    "f3": "Forget password?"
+  },
+  "account": {
+    "f1": "Account type",
+    "f2": "Account ID",
+    "f3": "Name",
+    "f4": "Phone",
+    "f5": "Email",
+    "f6": "Login password",
+    "f7": "Join time",
+    "f8": "Cat breed",
+    "f9": "Nationality",
+    "f10": "Nickname",
+    "f11": "Sex",
+    "f12": "Character",
+    "f13": "Identification photo",
+    "f14": "Women",
+    "f15": "man"
+  },
+  "routeName": {
+    "Home": "Home",
+    "User": "UserInfo",
+    "Account": "Account",
+    "workplace": "Home",
+    "Asset": "Account asset",
+    "Info": "Information",
+    "Account_Info1": "Account information",
+    "Account_Info2": "Self information"
+  }
+}

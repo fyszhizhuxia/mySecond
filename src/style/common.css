@@ -1,0 +1,32 @@
+/* 公共组件样式 */
+/* form里面的input样式 */
+.ant-form-vertical .ant-form-item-label {
+  padding: 0;
+}
+.ant-form-vertical .ant-form-item-label > label {
+  color: #595959;
+  font-size: 12px;
+}
+/* 菜单 */
+.ant-menu-sub.ant-menu-inline {
+  background: #fff;
+}
+.ant-menu-inline > .ant-menu-item {
+  margin-top: 0;
+}
+@media (min-width: 750px) {
+  .ant-input {
+    line-height: 44px;
+    border-radius: 4px;
+    padding: 0 11px;
+  }
+  .ant-input-affix-wrapper {
+    border-radius: 4px;
+    padding: 0 11px;
+  }
+  .ant-btn {
+    border-radius: 4px;
+    height: 44px;
+    border: none;
+  }
+}

@@ -1,0 +1,143 @@
+/* 选择文档的根元素（HTML中的 <html>） */
+/* 字体 */
+/* 细体 */
+@font-face {
+  font-family: StolzlBook;
+  src: url("./fonts/StolzlBook.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 中等 */
+@font-face {
+  font-family: StolzlRegular;
+  src: url("./fonts/StolzlRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 粗 */
+@font-face {
+  font-family: StolzlMedium;
+  src: url("./fonts/StolzlMedium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  // /* place-items: center; */
+  // min-width: 320px;
+  // min-height: 100vh;
+  font-size: 14px;
+  font-family: StolzlRegular, PingFang SC, Hiragino Sans GB, Heiti SC,
+    Microsoft YaHei, WenQuanYi Micro Hei, Helvetica, Arial, monospace,
+    sans-serif !important;
+}
+// 细体
+.font-family-regular {
+  font-family: StolzlBook, PingFang SC, Hiragino Sans GB, Heiti SC,
+    Microsoft YaHei, WenQuanYi Micro Hei, Helvetica, Arial, monospace,
+    sans-serif;
+}
+
+// 中等
+.font-family-medium {
+  font-family: StolzlRegular, PingFang SC, Hiragino Sans GB, Heiti SC,
+    Microsoft YaHei, WenQuanYi Micro Hei, Helvetica, Arial, monospace,
+    sans-serif;
+}
+
+// 加粗
+.font-family-bold {
+  font-family: StolzlMedium, PingFang SC, Hiragino Sans GB, Heiti SC,
+    Microsoft YaHei, WenQuanYi Micro Hei, stolzl, Helvetica, Arial, monospace,
+    sans-serif;
+}
+/* 去掉默认样式 */
+p,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: normal;
+}
+button {
+  cursor: pointer;
+}
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+a {
+  color: #1b39e6;
+  text-decoration: none;
+}
+
+/* 公用类 */
+#app {
+  width: 1200px;
+  margin: 0 auto;
+}
+.flexS {
+  display: flex;
+  justify-content: flex-start;
+}
+.flexB {
+  display: flex;
+  justify-content: space-between;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+@media (min-width: 750px) {
+  .app {
+    background: #e1e3ea;
+    min-height: 100%;
+  }
+  .pc {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .pc {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+
+/* 是否显示黑/白主题两套 */
+/* @media (prefers-color-scheme: light) {} */
